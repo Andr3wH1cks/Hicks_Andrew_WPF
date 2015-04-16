@@ -17,7 +17,7 @@ var gas = /*Assigning the prompts to read as numbers*/Number(prompt("How many ga
 
 // Here are the variables for the math equations.
 
-var speed = (distanceToA + distanceToB)/(timeToA + timeToB);
+var fuelBurnRate = ((distanceToA + distanceToB)/gas) / (timeToA + timeToB);
 var mileage = (distanceToA + distanceToB)/gas;
 distanceToA += distanceToB;
 timeToA += timeToB;
@@ -25,7 +25,7 @@ timeToA += timeToB;
 // Printing variables to the console.
 console.log ("Your total distance traveled was " + String(distanceToA) + " miles.");
 console.log ("Your total time on the road was " + String(timeToA) + " hours.");
-console.log ("Your average speed for your trip was " + String(speed) + " miles per hour.");
+console.log ("The average amount of fuel being used is " + String(fuelBurnRate) + " gallons per hour.");
 console.log ("Your average fuel mileage was " + String(mileage) + " miles per gallon.");
 
 /* distanceToA = 30
@@ -36,7 +36,7 @@ timeToA = 1
 timeToB = 1
 total time for timeToA += timeToB should equal 2
 
-speed should equal 25 MPH
+fuelBurnRate should equal 5 GPH
 gas = 5
 mileage should equal 10 MPG
  */
