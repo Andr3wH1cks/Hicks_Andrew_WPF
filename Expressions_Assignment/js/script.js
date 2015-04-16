@@ -21,5 +21,6 @@ var mileage = (distanceToA + distanceToB)/gas;
 distanceToA += distanceToB;
 
 // Printing variables to the console.
-console.log ("You're total distance traveled will me " + String(distanceToA) + " miles.");
-console
+console.log ("Your total distance traveled will me " + String(distanceToA) + " miles.");
+console.log ("Your average speed fr your trip was " + String(speed) + " miles per hour.");
+console.log ("Your average fuel mileage was " + String(mileage) + " miles per gallon.");
