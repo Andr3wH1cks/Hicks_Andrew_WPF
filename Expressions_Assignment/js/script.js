@@ -27,3 +27,16 @@ console.log ("Your total distance traveled was " + String(distanceToA) + " miles
 console.log ("Your total time on the road was " + String(timeToA) + " hours.");
 console.log ("Your average speed for your trip was " + String(speed) + " miles per hour.");
 console.log ("Your average fuel mileage was " + String(mileage) + " miles per gallon.");
+
+/* distanceToA = 30
+distanceToB = 20
+total distance for distanceToA += distanceToB should equal 50
+
+timeToA = 1
+timeToB = 1
+total time for timeToA += timeToB should equal 2
+
+speed should equal 25 MPH
+gas = 5
+mileage should equal 10 MPG
+ */
