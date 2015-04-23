@@ -23,6 +23,7 @@ distanceToA += distanceToB;
 timeToA += timeToB;
 
 // Printing variables to the console.
+
 console.log ("Your total distance traveled was " + String(distanceToA) + " miles.");
 console.log ("Your total time on the road was " + String(timeToA) + " hours.");
 console.log ("The average amount of fuel being used is " + String(fuelBurnRate) + " gallons per hour.");
