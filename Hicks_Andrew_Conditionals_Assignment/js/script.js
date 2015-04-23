@@ -79,3 +79,8 @@ if (moving == 1) {
                 }
             }
 }
+
+/* TESTING
+If moving = 2 and whereWillYouLive = 1, then the prompts for weightRestriction and weightOfDog will be used.
+if weightOfDog = 35 and the weightRestriction = 45, "Your dog is 10 pound(s) under the restriction. You're good to go!" will be printed in the console.
+ */
