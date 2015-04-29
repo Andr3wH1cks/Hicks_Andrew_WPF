@@ -64,11 +64,13 @@ if (moving == 1) {
 
         else if (moving == 2) {
             console.log("So you're not moving, but you still want a dog.");
+// If statement
             if (whereWillYouLive == 2) {
                 console.log("You own your house, you can do whatever you want!");
                 console.log("See what the difference is if you have to rent.");
 
             }
+// Else statement
             else {
                 if (whereWillYouLive == 1) {
 // Ternary Operator
