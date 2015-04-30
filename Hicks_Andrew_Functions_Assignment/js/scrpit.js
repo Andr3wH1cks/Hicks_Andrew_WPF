@@ -5,7 +5,7 @@ Dan Williams
  */
 
 
-
+alert ("You are wanting to see how much money you will make off your saving account");
 
 //variables
 
@@ -13,13 +13,13 @@ var p = Number(prompt("How much is in your savings account"));
 
 // Function to validate prompt.
 
-function pPrompt(numberEntered){
+function pPrompt(numberEntered){ // Creating loop
     while (numberEntered == ""){
 
         numberEntered = Number(prompt("Please enter how much is in the account."))
     }
 
-    return numberEntered;
+    return numberEntered; // Returning values
 }
 
 p = pPrompt(p); // Invocation of function.
@@ -28,13 +28,13 @@ var rate = Number(prompt("What is your interest rate?"));
 
 // Function to validate prompt.
 
-function ratePrompt(numberEntered){
+function ratePrompt(numberEntered){ // Creating loop
     while (numberEntered == ""){
 
         numberEntered = Number(prompt("Please enter the percentage rate."))
     }
 
-    return numberEntered;
+    return numberEntered; // Returning values
 }
 
 rate = ratePrompt(rate); // Invocation of function.
@@ -43,13 +43,13 @@ var t = Number(prompt("In years, how long will you be keeping your money in your
 
 // Function to validate prompt.
 
-function tPrompt(numberEntered){
+function tPrompt(numberEntered){ // Creating loop
     while(numberEntered == ""){
 
         numberEntered = Number(prompt("Please enter how long the money is in the account in years."))
     }
 
-    return numberEntered;
+    return numberEntered; // Returning values
 }
 
 t = tPrompt(t); // Invocation of function.
@@ -66,12 +66,19 @@ function calcInterest(p, r, t){
 
 }
 // Anonymous Function
-var totalAmount = function (int, p){
-    var total = int + p;
-    return total;
+var totalAmount = function (int, p){ // Defining function variables
+    var total = int + p;  // Creating formula
+    return total; // Returning values
 }
 
-var total = totalAmount(interestRateVariables, p);
+var total = totalAmount(interestRateVariables, p); // Invoking anonymous function
 // main code
 console.log ("Based on what you have in your account, you will make " + interestRateVariables + " dollars in interest over the course of " + t + " years.");
 console.log ("Your new total of what you have will be " + total + " dollars.");
+
+
+/* TEST
+
+At a Principal of 6000 dollars, and 5% interest over 6 years, the amount accumulated should come out to be 1800.
+1800 + 6000 = 7800 for the account holders new total.
+ */
