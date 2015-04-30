@@ -18,6 +18,34 @@ var interestFormula = calcInterest(p, r, t);
 
 // Functions
 
+// validating prompt functions
+
+function pPrompt(numberEntered){
+    while (numberEntered == ""){
+
+        numberEntered = Number(prompt("Please enter how much is in the account."))
+    }
+
+    return numberEntered;
+}
+
+function ratePrompt(numberEntered){
+    while (numberEntered == ""){
+
+        numberEntered = Number(prompt("Please enter the percentage rate."))
+    }
+
+    return numberEntered;
+}
+
+function tPrompt(numberEntered){
+    while(numberEntered == ""){
+
+        numberEntered = Number(prompt("Please enter how long the money is in the account in years."))
+    }
+
+    return numberEntered;
+}
 function calcInterest(p, r, t){
     var interest = p * r * t;
     console.log (interest);
@@ -26,4 +54,6 @@ function calcInterest(p, r, t){
 
 }
 
- interestRateVariables = calcInterest(interestFormula);
+
+// main code
+ p = pPrompt(p);

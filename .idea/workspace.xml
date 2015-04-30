@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9529bb1f-1571-40de-b4cc-956905290900" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hicks_Andrew_Functions_Assignment/index.html" afterPath="$PROJECT_DIR$/Hicks_Andrew_Functions_Assignment/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hicks_Andrew_Functions_Assignment/js/scrpit.js" afterPath="$PROJECT_DIR$/Hicks_Andrew_Functions_Assignment/js/scrpit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Hicks_Andrew_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +49,8 @@
       <file leaf-file-name="scrpit.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hicks_Andrew_Functions_Assignment/js/scrpit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44491526" vertical-offset="0" max-vertical-offset="944">
-              <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.7309322" vertical-offset="0" max-vertical-offset="960">
+              <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -530,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Hicks_Andrew_Functions_Assignment/js/scrpit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44491526" vertical-offset="0" max-vertical-offset="944">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.7309322" vertical-offset="0" max-vertical-offset="960">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
