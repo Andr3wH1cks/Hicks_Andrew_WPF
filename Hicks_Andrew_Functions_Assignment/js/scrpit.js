@@ -59,6 +59,7 @@ var interestRateVariables = calcInterest (p, r, t); // Setting Arrangement for f
 
 
 // Here is the main function for calculating interest
+// Normal Function
 function calcInterest(p, r, t){
     var interest = p * r * t;
 
@@ -72,7 +73,11 @@ var totalAmount = function (int, p){ // Defining function variables
 }
 
 var total = totalAmount(interestRateVariables, p); // Invoking anonymous function
+
+
 // main code
+
+
 console.log ("Based on what you have in your account, you will make " + interestRateVariables + " dollars in interest over the course of " + t + " years.");
 console.log ("Your new total of what you have will be " + total + " dollars.");
 
