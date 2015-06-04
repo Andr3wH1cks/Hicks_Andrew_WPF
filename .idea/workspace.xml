@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9529bb1f-1571-40de-b4cc-956905290900" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Hicks_Andrew_Functions_Assignment/js/scrpit.js" afterPath="$PROJECT_DIR$/Hicks_Andrew_Functions_Assignment/js/scrpit.js" />
-    </list>
+    <list default="true" id="9529bb1f-1571-40de-b4cc-956905290900" name="Default" comment="" />
     <ignored path="Hicks_Andrew_WPF.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,7 +46,7 @@
             <file leaf-file-name="funOrProc.js" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/../../SDI 1/Examples/js/funOrProc.js">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="956">
+                  <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="774">
                     <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                     <folding />
                   </state>
@@ -69,7 +67,7 @@
       <file leaf-file-name="scrpit.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hicks_Andrew_Functions_Assignment/js/scrpit.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6345339" vertical-offset="286" max-vertical-offset="1410">
+            <state vertical-scroll-proportion="0.785059" vertical-offset="286" max-vertical-offset="1410">
               <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -120,10 +118,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2314" />
+    <option name="x" value="1834" />
     <option name="y" value="-59" />
     <option name="width" value="1046" />
-    <option name="height" value="1054" />
+    <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -357,7 +355,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2314" y="-59" width="1046" height="1054" extended-state="1" />
+    <frame x="1834" y="-59" width="1046" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -555,21 +553,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Hicks_Andrew_Functions_Assignment/js/scrpit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6345339" vertical-offset="286" max-vertical-offset="1410">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../SDI 1/Examples/js/funOrProc.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="956">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hicks_Andrew_Functions_Assignment/js/scrpit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.785059" vertical-offset="286" max-vertical-offset="1410">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
